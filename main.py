@@ -10,7 +10,7 @@ def opencodeorg():
     webbrowser.get(chrome_path).open_new("code.org")  # link to custom project for drone
 
 window = Tk()
-window.geometry("1290x850")
+# no geometry for dynamic resizing to fit contents
 window.title("jstopy_pyparrot")
 window.resizable(width=False, height=False)
 jslabel = Label(window, text="JavaScript from code.org (click here to open)", fg="blue")
